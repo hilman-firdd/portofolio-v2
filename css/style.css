@@ -1,0 +1,239 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-bottom: 350px;
+	position: relative;
+}
+.navbar-inverse {
+	background-color: #1C7659;
+}
+
+.navbar-inverse .navbar-brand {
+	color:#eee;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#eee;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 1s;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	transform: translate(0px,360px) translate(0px,-355px);
+	background-color: black;
+	border-top: 2px solid #fff;
+}
+/*zona header*/
+header {
+	overflow: hidden;
+}
+header img {
+	height: 200px;
+	width: 200px;
+	top: 150px;
+	position: relative;
+}
+header h2 {
+	margin-top: 155px;
+	font-family: jokerman;
+	color:#1C7659;
+}
+header span {
+	color: #FFFFFF;
+}
+header h4 {
+	font-weight: bold;
+	color:#1C7659;	
+	font-size: 15px;
+}
+/*akhir header*/
+
+/*section*/
+section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+/*akhir section*/
+
+
+/*zona about*/
+#about {
+	margin-top: -1px;
+	background-color: #fff;
+	z-index: 9999;
+}
+#about h2 {
+	margin-bottom: 25px;
+}
+
+hr {
+	border : 1px solid #eee;
+}
+.about p {
+	padding-bottom: 5px;
+	text-align: justify;
+}
+/*akhir about*/
+
+/*zona skill*/
+#costumer-service{
+	margin-top: -30px;
+	background-color: #fff;
+	z-index: 9999;
+}
+#costumer-service h2 {
+	margin-bottom: 25px;
+	/*box-shadow: 7px 11px 60px -6px rgba(0,0,0,0.34);*/
+}
+
+.costumer-service p {
+	margin-top: 20px;
+	text-align: justify;
+	font-family: cursive;
+	padding-bottom: 20px;
+}
+/*akhir skill*/
+
+/*zona portfolio*/
+#portfolio {
+	margin-top: -30px;
+	background-color: #fff;
+	z-index: 9999;
+}
+#portfolio h2 {
+	margin-bottom: 25px;
+}
+.portfolio img {
+	margin: 15px;
+}
+.portfolio .muncul {
+	opacity: 0;
+	transform: translate(0px,-30px);
+	transition: all 0.3s;
+}
+.portfolio .muncul.op {
+	transform: translate(0px,0px);
+	opacity: 1;
+}
+/*akhir portfolio*/
+
+/*zona diagram-skills*/
+#diagram-skills {
+	margin-top: -30px;
+	z-index: 9999;
+	min-height: 250px;
+	color: #eee;
+	background-color: #181616;
+}
+/*akhir zona diagram-skills*/
+
+/*zona contact*/
+#contact {
+	margin-top: -30px;
+	background-color: #fff;
+	z-index: 9999;
+}
+/*akhir contact*/
+
+/*zona footer*/
+footer {
+	margin-top: 100px;
+	background-color: #1C7659;
+	color: #eee;
+	padding: 25px;
+	z-index: -9999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+.foot {
+	margin: 0 auto;
+	max-width: 800px;
+}
+footer ul {
+	list-style-type: none;
+}
+footer a {
+	color: #eee;
+}
+footer a:hover{
+	border:1px solid black;
+	background-color: black;
+	color:#fff;
+	text-decoration: none;
+}
+footer img {
+	height: 50px;
+	width: 50px;
+}
+
+
+/*akhir footer*/
+
+/*responesive*/
+
+@media (max-width: 768px) {
+	#about h2 {
+	background-color: #1C7659;
+	color: #eee;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
+ }
+	#costumer-service h2 {
+	background-color: #1C7659;
+	color: #eee;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
+ }
+
+	#portfolio h2 {
+	background-color: #1C7659;
+	color: #eee;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
+ }
+ 	#contact h2 {
+	background-color: #1C7659;
+	color: #eee;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
+ }
+  .about p {
+	border-bottom: 1px solid #999;
+ }
+ 	hr {
+ 		display: none;
+ }
+ 	footer {
+	margin-top: 100px;
+	background-color: #1E1E1E;
+	color: #eee;
+	padding: 25px;
+	z-index: -9999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+	footer ul {
+	list-style-type: none;
+}
+
+	footer img {
+		margin-right: 55px;
+		margin-bottom: 10px;
+	}
+	footer a:hover{
+	border:1px solid #11B497;
+	padding: 5px;
+	color:#aaa;
+	text-decoration: none;
+}
+
+	
+}
+
+/*akhir responsive*/
