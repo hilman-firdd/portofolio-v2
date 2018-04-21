@@ -3,7 +3,7 @@ body {
 	padding: 0px;
 	font-family: sans-serif;
 	font-size: 15px;
-	margin-bottom: 250px;
+	margin-bottom: 240px;
 	position: relative;
 }
 .navbar-inverse {
@@ -134,8 +134,32 @@ hr {
 	margin-top: -30px;
 	background-color: #fff;
 	z-index: 9999;
+	position: relative;
 }
 /*akhir contact*/
+
+/*pointer*/
+.pointer {
+	color:#302E2E;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 80px;
+	height: 55px;
+	width: 55px;
+	line-height: 65px;
+	position: absolute;
+	border:3px solid #302E2E;
+	padding: 1px;
+	right: 20px;
+	top:96%;
+	transition: 0.5s;
+}
+.pointer:hover{
+	cursor: pointer;
+	color:#eee;
+	background-color: #1C7659;
+}
+/*end pointer*/
 
 /*zona footer*/
 footer {
@@ -169,13 +193,16 @@ footer img {
 	height: 50px;
 	width: 50px;
 }
+footer .conten {
+	position: relative;
+}
 
 
 /*akhir footer*/
 
 /*responesive*/
 
-@media (max-width: 768px) {
+@media (min-width: 720px) and (max-width: 992px) {
 	#about h2 {
 	background-color: #1C7659;
 	color: #eee;
@@ -223,6 +250,8 @@ footer img {
 }
 
 	footer img {
+		position: relative;
+		top:80px;
 		margin-right: 55px;
 		margin-bottom: 10px;
 	}
@@ -232,8 +261,40 @@ footer img {
 	color:#aaa;
 	text-decoration: none;
 }
-
+.pointer {
+	color:#302E2E;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 80px;
+	height: 55px;
+	width: 55px;
+	line-height: 65px;
+	position: absolute;
+	border:3px solid #44C6C1;
+	padding: 1px;
+	right: 20px;
+	top:96%;
+	transition: 0.5s;
+}
 	
+}
+
+@media (max-width: 720px){
+	.pointer {
+	color:#302E2E;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 80px;
+	height: 55px;
+	width: 55px;
+	line-height: 65px;
+	position: absolute;
+	border:3px solid #999;
+	padding: 1px;
+	right: 20px;
+	top:96%;
+	transition: 0.5s;
+}
 }
 
 /*akhir responsive*/
