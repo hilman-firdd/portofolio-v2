@@ -7,6 +7,7 @@ $(document).ready(function() {
 			scrollTop: $(hash).offset().top -51
 		},1200,'easeInOutExpo');
 	});
+
 });
 
 $(window).scroll(function() {
@@ -34,15 +35,15 @@ $(window).scroll(function() {
 });
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 
-let prevScrollpos = window.scrollY;
-window.onscroll = function() {
-	let currentScrollPos = window.scrollY;
-	if(prevScrollpos > currentScrollPos){
-		document.getElementById('navbar-new').style.top = "0px";
-		document.getElementById('navbar-new').style.transition = "all 0.7s ease-in-out ";
-	}else{
-		document.getElementById('navbar-new').style.top = "-50px";
-		document.getElementById('navbar-new').style.transition = "all 0.7s ease-in-out ";
-	}
-	prevScrollpos = currentScrollPos;
-}
+// let prevScrollpos = window.scrollY;
+// window.onscroll = function() {
+// 	let currentScrollPos = window.scrollY;
+// 	if(prevScrollpos > currentScrollPos){
+// 		document.getElementById('navbar-new').style.top = "0px";
+// 		document.getElementById('navbar-new').style.transition = "all 0.7s ease-in-out ";
+// 	}else{
+// 		document.getElementById('navbar-new').style.top = "-50px";
+// 		document.getElementById('navbar-new').style.transition = "all 0.7s ease-in-out ";
+// 	}
+// 	prevScrollpos = currentScrollPos;
+// }

@@ -6,48 +6,57 @@ body {
 	margin-bottom: 240px;
 	position: relative;
 }
+
 .navbar-inverse {
 	background-color: #1C7659;
 }
 
 .navbar-inverse .navbar-brand {
-	color:#eee;
+	color: #eee;
 	font-weight: bold;
 }
+
 .navbar-inverse .navbar-nav>li>a {
-	color:#eee;
+	color: #eee;
 	font-size: 15px;
 	font-weight: bold;
 	transition: 1s;
 }
+
 .navbar-inverse .navbar-nav>li>a:hover {
-	transform: translate(0px,360px) translate(0px,-355px);
+	transform: translate(0px, 360px) translate(0px, -355px);
 	background-color: black;
 	border-top: 2px solid #fff;
 }
+
 /*zona header*/
 header {
 	overflow: hidden;
 }
+
 header img {
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	top: 150px;
 	position: relative;
 }
+
 header h2 {
 	margin-top: 155px;
 	font-family: jokerman;
-	color:#1C7659;
+	color: #1C7659;
 }
+
 header span {
 	color: #FFFFFF;
 }
+
 header h4 {
 	font-weight: bold;
-	color:#1C7659;	
+	color: #1C7659;
 	font-size: 15px;
 }
+
 /*akhir header*/
 
 /*section*/
@@ -55,6 +64,7 @@ section {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+
 /*akhir section*/
 
 
@@ -64,25 +74,29 @@ section {
 	background-color: #fff;
 	z-index: 9999;
 }
+
 #about h2 {
 	margin-bottom: 25px;
 }
 
 hr {
-	border : 1px solid #eee;
+	border: 1px solid #eee;
 }
+
 .about p {
 	padding-bottom: 5px;
 	text-align: justify;
 }
+
 /*akhir about*/
 
 /*zona skill*/
-#costumer-service{
+#costumer-service {
 	margin-top: -30px;
 	background-color: #fff;
 	z-index: 9999;
 }
+
 #costumer-service h2 {
 	margin-bottom: 25px;
 	/*box-shadow: 7px 11px 60px -6px rgba(0,0,0,0.34);*/
@@ -94,6 +108,7 @@ hr {
 	font-family: cursive;
 	padding-bottom: 20px;
 }
+
 /*akhir skill*/
 
 /*zona portfolio*/
@@ -102,21 +117,26 @@ hr {
 	background-color: #fff;
 	z-index: 9999;
 }
+
 #portfolio h2 {
 	margin-bottom: 25px;
 }
+
 .portfolio img {
 	margin: 15px;
 }
+
 .portfolio .muncul {
 	opacity: 0;
-	transform: translate(0px,-30px);
+	transform: translate(0px, -30px);
 	transition: all 0.3s;
 }
+
 .portfolio .muncul.op {
-	transform: translate(0px,0px);
+	transform: translate(0px, 0px);
 	opacity: 1;
 }
+
 /*akhir portfolio*/
 
 /*zona diagram-skills*/
@@ -127,6 +147,7 @@ hr {
 	color: #eee;
 	background-color: #181616;
 }
+
 /*akhir zona diagram-skills*/
 
 /*zona contact*/
@@ -136,11 +157,12 @@ hr {
 	z-index: 9999;
 	position: relative;
 }
+
 /*akhir contact*/
 
 /*pointer*/
 .pointer {
-	color:#302E2E;
+	color: #302E2E;
 	border-radius: 30px;
 	text-align: center;
 	font-size: 80px;
@@ -148,17 +170,25 @@ hr {
 	width: 55px;
 	line-height: 65px;
 	position: absolute;
-	border:3px solid #302E2E;
+	border: 3px solid #302E2E;
 	padding: 1px;
 	right: 20px;
-	top:96%;
+	top: 97%;
 	transition: 0.5s;
 }
-.pointer:hover{
+
+.pointer:hover {
 	cursor: pointer;
-	color:#eee;
+	color: #eee;
 	background-color: #1C7659;
 }
+
+.pointer i {
+	right: 10px;
+	position: absolute;
+	font-size: 45px;
+}
+
 /*end pointer*/
 
 /*zona footer*/
@@ -173,26 +203,32 @@ footer {
 	right: 0;
 	position: fixed;
 }
+
 .foot {
 	margin: 0 auto;
 	max-width: 800px;
 }
+
 footer ul {
 	list-style-type: none;
 }
+
 footer a {
 	color: #eee;
 }
-footer a:hover{
-	border:1px solid black;
+
+footer a:hover {
+	border: 1px solid black;
 	background-color: black;
-	color:#fff;
+	color: #fff;
 	text-decoration: none;
 }
+
 footer img {
 	height: 50px;
 	width: 50px;
 }
+
 footer .conten {
 	position: relative;
 }
@@ -204,97 +240,105 @@ footer .conten {
 
 @media (min-width: 720px) and (max-width: 992px) {
 	#about h2 {
-	background-color: #1C7659;
-	color: #eee;
-	border-radius: 5px;
-	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
- }
+		background-color: #1C7659;
+		color: #eee;
+		border-radius: 5px;
+		box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+	}
+
 	#costumer-service h2 {
-	background-color: #1C7659;
-	color: #eee;
-	border-radius: 5px;
-	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
- }
+		background-color: #1C7659;
+		color: #eee;
+		border-radius: 5px;
+		box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+	}
 
 	#portfolio h2 {
-	background-color: #1C7659;
-	color: #eee;
-	border-radius: 5px;
-	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
- }
- 	#contact h2 {
-	background-color: #1C7659;
-	color: #eee;
-	border-radius: 5px;
-	box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.35);
- }
-  .about p {
-	border-bottom: 1px solid #999;
- }
- 	hr {
- 		display: none;
- }
- 	footer {
-	margin-top: 100px;
-	background-color: #1E1E1E;
-	color: #eee;
-	padding: 25px;
-	z-index: -9999;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: fixed;
-}
+		background-color: #1C7659;
+		color: #eee;
+		border-radius: 5px;
+		box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+	}
+
+	#contact h2 {
+		background-color: #1C7659;
+		color: #eee;
+		border-radius: 5px;
+		box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+	}
+
+	.about p {
+		border-bottom: 1px solid #999;
+	}
+
+	hr {
+		display: none;
+	}
+
+	footer {
+		margin-top: 100px;
+		background-color: #1E1E1E;
+		color: #eee;
+		padding: 25px;
+		z-index: -9999;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position: fixed;
+	}
+
 	footer ul {
-	list-style-type: none;
-}
+		list-style-type: none;
+	}
 
 	footer img {
 		position: relative;
-		top:80px;
+		top: 80px;
 		margin-right: 55px;
 		margin-bottom: 10px;
 	}
-	footer a:hover{
-	border:1px solid #11B497;
-	padding: 5px;
-	color:#aaa;
-	text-decoration: none;
-}
-.pointer {
-	color:#302E2E;
-	border-radius: 30px;
-	text-align: center;
-	font-size: 80px;
-	height: 55px;
-	width: 55px;
-	line-height: 65px;
-	position: absolute;
-	border:3px solid #44C6C1;
-	padding: 1px;
-	right: 20px;
-	top:96%;
-	transition: 0.5s;
-}
-	
+
+	footer a:hover {
+		border: 1px solid #11B497;
+		padding: 5px;
+		color: #aaa;
+		text-decoration: none;
+	}
+
+	.pointer {
+		color: #302E2E;
+		border-radius: 30px;
+		text-align: center;
+		font-size: 80px;
+		height: 55px;
+		width: 55px;
+		line-height: 65px;
+		position: absolute;
+		border: 3px solid #44C6C1;
+		padding: 1px;
+		right: 20px;
+		top: 96%;
+		transition: 0.5s;
+	}
+
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
 	.pointer {
-	color:#302E2E;
-	border-radius: 30px;
-	text-align: center;
-	font-size: 80px;
-	height: 55px;
-	width: 55px;
-	line-height: 65px;
-	position: absolute;
-	border:3px solid #999;
-	padding: 1px;
-	right: 20px;
-	top:96%;
-	transition: 0.5s;
-}
+		color: #302E2E;
+		border-radius: 30px;
+		text-align: center;
+		font-size: 80px;
+		height: 55px;
+		width: 55px;
+		line-height: 65px;
+		position: absolute;
+		border: 3px solid #999;
+		padding: 1px;
+		right: 20px;
+		top: 96%;
+		transition: 0.5s;
+	}
 }
 
 /*akhir responsive*/
